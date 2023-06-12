@@ -12,12 +12,15 @@ function App() {
       <div className="container">
         <div className="wrapper">
           <div className="content">
-            <h1 className="title">Make remote work</h1>
-            <p className="detail">
-              Get your team in sync, not matter your location. Streamline
-              processes, createe team rituals, and watch productivity soar.
-            </p>
-            <button className="btn">Learn more</button>
+            <div className="text">
+              <h1 className="title">Make remote work</h1>
+              <p className="detail">
+                Get your team in sync, not matter your location. Streamline
+                processes, createe team rituals, and watch productivity soar.
+              </p>
+              <button className="btn">Learn more</button>
+            </div>
+
             <div className="clients">
               <img src={clientDatabiz} alt="databiz" />
               <img src={clientAudiophile} alt="audiophile" />

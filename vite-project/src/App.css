@@ -28,6 +28,7 @@ img {
   font-weight: var(--secondary-fw);
   font-size: var(--paragraph-fs);
   background-color: var(--neutral-almost-white);
+  color: var(--neutral-almost-black);
 }
 
 .App > .container {
@@ -35,16 +36,16 @@ img {
   margin-inline: auto;
 }
 
-.App > .container .content > *:not(:first-child) {
-  margin-top: 2em;
-}
-
 .App > .container .wrapper {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  gap: 5em;
+  align-items: center;
+  gap: 3em;
   padding-bottom: 5em;
+}
+
+.App > .container .wrapper .text > *:not(:first-child) {
+  margin-top: 2em;
 }
 
 .App > .container .content .title {
@@ -77,10 +78,9 @@ img {
 }
 
 .App > .container .hero-img {
-  padding-left: 2em;
+  
   width: 100%;
-  min-height: 100vh;
-  min-height: 100dvh;
+  height: 600px;
   align-self: center;
   background-image: url("./images/image-hero-desktop.png");
   background-position: center;
